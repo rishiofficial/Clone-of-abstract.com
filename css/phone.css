@@ -1,0 +1,21 @@
+#home{
+    height: 234px;
+    width: 100%;
+}
+#navbar{
+    height: 100px;
+    margin: auto;
+    /* flex-direction: column; */
+}
+.btn{
+    padding: 3PX;
+    margin: auto;
+    width: 25%;
+    font-size: 13px;
+}
+.h1{
+    font-size: 20px;
+}
+.footer{
+    flex-direction: column;
+}

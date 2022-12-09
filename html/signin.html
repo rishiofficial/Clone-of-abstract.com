@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/sign up</title>
+</head>
+<style>
+    .container{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+      
+    }
+    .btn {
+        background-color: rgb(62, 62, 183);
+        border: 2px solid white;
+        padding: 9px 73px;
+        margin: 4px;
+        border-radius: 8px;
+        width: 316px;
+        color: white;
+        font-size: 16px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-color: rgb(90, 90, 163);
+    }
+    #email{
+        padding: 12px;
+        margin: 8px;
+        width: 290px;
+    }
+
+    #password{
+        padding: 12px;
+        margin: 8px;
+        width: 290px;
+    }
+    .box{
+        text-align: center;
+    }
+    .box a{
+        text-decoration: none;
+    }
+
+    .box a:hover{
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <!-- sign in -->
+        <button class="btn">Sign In</button>
+
+        <div class="box">
+            <a href="#password" >Forgot Your Password</a>
+        </div>
+        
+    </div>
+</body>
+</html>
